@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    Font-size: 15px;
+}
+.header{
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom:10px;
+}
+.cards{
+    display: flex;
+    width:1100px;
+    margin:20px auto;
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height: 23px;
+   
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding:30px;
+
+
+}
+.suvs{
+    background-color:hsl(184, 100%, 22%);
+    padding:30px;
+}
+
+.luxury{
+    background:  hsl(179, 100%, 13%);
+    padding:30px;
+}
+.icon{
+    padding:10px 0px 0px 25px;
+
+}
+.font-family{
+     font-family: 'Lexend Deca', sans-serif;
+     font-size:400;
+     
+}
+.articale{
+    padding:16px;
+    margin:20px;
+}
+.learnbtn{
+    margin: 27px;
+    padding: 13px 25px;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 17px;
+    transition: all 0.5s ease;
+    border: 2px solid transparent;
+
+}
+.learnbtn:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+/*
+Responsive design
+
+*/
+
+@media  screen and (max-width: 375px) {
+    .cards{
+        flex-direction: column;
+        width:100%;
+        margin:0px;
+       
+    }
+}
+
+@media  screen and (max-width: 481px) {
+    .cards{
+        flex-direction: column;
+        width:100%;
+        margin:0px;
+       
+    }
+}
+@media  screen and (max-width: 768px) {
+    .cards{
+        flex-direction: column;
+        width:100%;
+        margin:0px;
+       
+    }
+}
+@media  screen and (max-width: 1025px) {
+    .cards{
+      
+        width:100%;
+        margin:0px;
+       
+    }
+}
